@@ -1,0 +1,95 @@
+
+body{
+    /* background-image: url("bgimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:150vh; */
+    background-color: rgb(11,20,62);
+}
+#navcolor{
+     background-color:rgb(183,19,128);
+     display: flex;
+     justify-content: space-between;
+     color:white;
+     position: fixed;
+     top:0px;
+     flex-wrap: wrap;
+}
+
+#leftnav{
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    
+}
+
+#leftnav a{
+    color:white;
+    text-decoration: none
+}
+#input-div{
+     margin-top: 35vh;
+     height:40px;
+     border-radius: 15px;
+     width: 50%;
+    
+}
+#input-div input{
+    border-radius: 15px;
+    background-color: rgb(27,95,156);
+    color:white;
+    font-weight: bold;
+}
+
+#Addcard{
+
+    margin-top: 5%;
+   
+}
+#outer{
+    margin-top: 3%;
+    display: flex;
+background-color: rgba(0, 0, 0, 0.089);
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+
+
+}
+#side{
+    width: 20%;
+    
+}
+#nside{
+    width:60%;
+    text-align: left;
+}
+
+#below{
+    width:100%;
+    margin-top: 10%;
+}
+
+#detail{
+    width:100%;
+    border-radius: 20px;
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.212);
+    color:white
+}
+#add{
+    margin-top: 2%;
+    border-radius: 20px;
+    width:100%;
+    background-color: green
+}
+
+#img{
+    width:100%;
+    height: auto;
+}
+#text{
+  color:white;
+  font-size: 100%
+}
